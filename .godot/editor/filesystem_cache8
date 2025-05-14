@@ -1,0 +1,36 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1747253663
+chapter_1.gd::GDScript::-1::1747252993::0::1::::<>Node2D<>::
+chapter_1.tscn::PackedScene::7143405834539091121::1747253387::0::1::::<><>::uid://cfvs2l0ywluj3::::res://player.tscn<>res://chapter_1.gd<>uid://b756e7epi7kfp::::res://assets/tilesets/Solaria Demo Update 01 32.png<>uid://cqldps5terrkd::::res://icon.svg<>res://chest.gd<>uid://cei43k0ha2tcy::::res://assets/sprites/Slime 01 32.png<>res://ghost.gd<>uid://bsw5d8a01xdxv::::res://assets/music/04-all-of-us-eircskiff.mp3<>uid://kgbk7qiha5vc::::res://assets/sfx/gameover.wav<>uid://cny7ee5xxvckn::::res://assets/Heart&ManaUi.png<>res://hp.gd
+chest.gd::GDScript::-1::1747252993::0::1::::Chest<>StaticBody2D<>::
+export_presets.cfg::TextFile::-1::1747252993::0::1::::<><>::
+ghost.gd::GDScript::-1::1747252993::0::1::::ghost<>CharacterBody2D<>::
+hp.gd::GDScript::-1::1747252993::0::1::::<>HBoxContainer<>::
+icon.svg::CompressedTexture2D::5918780951409992259::1747252993::1747253042::1::::<><>::
+player.gd::GDScript::-1::1747253198::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::5168279258214115222::1747253199::0::1::::<><>::res://player.gd<>uid://cjapaw5jxhpc6::::res://assets/sprites/Hero 01 32.png<>uid://cgpm5cjcrf2tc::::res://assets/sprites/Sword 01 32.png<>uid://gnn2ohsw4h6d::::res://assets/sfx/sword.wav
+README.md::TextFile::-1::1747252993::0::1::::<><>::
+::res://assets/::1747253042
+font.ttf::FontFile::8091531447367090055::1747252996::1747253042::1::::<><>::
+Heart&ManaUi.png::CompressedTexture2D::5736791745236315745::1747252996::1747253042::1::::<><>::
+menu-frame-9patch.png::CompressedTexture2D::9196626143958073495::1747252996::1747253042::1::::<><>::
+::res://assets/music/::1747253042
+04-all-of-us-eircskiff.mp3::AudioStreamMP3::3697064781373800999::1747252996::1747253042::1::::<><>::
+::res://assets/sfx/::1747253042
+enemy-defeated.wav::AudioStreamWAV::1073040575562937254::1747252996::1747253042::1::::<><>::
+enemyhit.wav::AudioStreamWAV::1789563657169241967::1747252996::1747253042::1::::<><>::
+gameover.wav::AudioStreamWAV::714354983673446324::1747252996::1747253042::1::::<><>::
+interact.wav::AudioStreamWAV::1380869184975128101::1747252996::1747253042::1::::<><>::
+player-hit.wav::AudioStreamWAV::557222568384326119::1747252996::1747253042::1::::<><>::
+sword.wav::AudioStreamWAV::448808256961286533::1747252996::1747253042::1::::<><>::
+tada.wav::AudioStreamWAV::7636503060607986482::1747252996::1747253042::1::::<><>::
+::res://assets/sprites/::1747253042
+Asset License.txt::TextFile::-1::1747252996::0::1::::<><>::
+Hero 01 32.png::CompressedTexture2D::5405452917317773287::1747252996::1747253042::1::::<><>::
+hero.png::CompressedTexture2D::1877387598806854748::1747252996::1747253042::1::::<><>::
+Minecart 01 32.png::CompressedTexture2D::7967001501527610649::1747252996::1747253042::1::::<><>::
+Slime 01 32.png::CompressedTexture2D::5071923123163117472::1747252996::1747253042::1::::<><>::
+Sword 01 32.png::CompressedTexture2D::5225722392319394476::1747252996::1747253042::1::::<><>::
+::res://assets/tilesets/::1747253042
+Asset License.txt::TextFile::-1::1747252996::0::1::::<><>::
+Solaria Demo Update 01 32.png::CompressedTexture2D::4696286070303224385::1747252996::1747253042::1::::<><>::

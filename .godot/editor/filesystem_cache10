@@ -1,0 +1,36 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1746647475
+chapter_1.gd::GDScript::430979745558084045::1746646783::0::1::::<>Node2D<><>0<>0<><>::
+chapter_1.tscn::PackedScene::7143405834539091121::1746646863::0::1::::<><><>0<>0<><>::uid://cfvs2l0ywluj3::::res://player.tscn<>uid://ge1f5q8ltgvd::::res://chapter_1.gd<>uid://b756e7epi7kfp::::res://assets/tilesets/Solaria Demo Update 01 32.png<>uid://cqldps5terrkd::::res://icon.svg<>uid://b45fv7byu5e11::::res://chest.gd<>uid://cei43k0ha2tcy::::res://assets/sprites/Slime 01 32.png<>uid://ckal6dustxus2::::res://ghost.gd<>uid://bsw5d8a01xdxv::::res://assets/music/04-all-of-us-eircskiff.mp3<>uid://kgbk7qiha5vc::::res://assets/sfx/gameover.wav<>uid://cny7ee5xxvckn::::res://assets/Heart&ManaUi.png<>uid://b23wh8sf7a3m2::::res://hp.gd
+chest.gd::GDScript/GDScript::4484171251864039182::1746627108::0::1::::Chest<>StaticBody2D<><>0<>0<><>::
+export_presets.cfg::TextFile/TextFile::-1::1746627108::0::1::::<><><>0<>0<><>::
+ghost.gd::GDScript::5475453239608303351::1746646029::0::1::::ghost<>CharacterBody2D<><>0<>0<><>::
+hp.gd::GDScript/GDScript::4340672074778852547::1746637776::0::1::::<>HBoxContainer<><>0<>0<><>::
+icon.svg::CompressedTexture2D/CompressedTexture2D::5918780951409992259::1746627108::1746627108::1::::<><><>0<>0<>000993053c069a0d53f06edc98c9e866<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+player.gd::GDScript::3569415313186552487::1746646089::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::5168279258214115222::1746646818::0::1::::<><><>0<>0<><>::uid://bq4b0prkh45rv::::res://player.gd<>uid://cjapaw5jxhpc6::::res://assets/sprites/Hero 01 32.png<>uid://cgpm5cjcrf2tc::::res://assets/sprites/Sword 01 32.png<>uid://gnn2ohsw4h6d::::res://assets/sfx/sword.wav
+README.md::TextFile/TextFile::-1::1746627108::0::1::::<><><>0<>0<><>::
+::res://assets/::1746627115
+font.ttf::FontFile/FontFile::8091531447367090055::1746627114::1746627114::1::::<><><>0<>0<>89d21a5dfd462c125289314dbc2aa439<>res://.godot/imported/font.ttf-976a98412f76666fef587cd4874204ca.fontdata::
+Heart&ManaUi.png::CompressedTexture2D/CompressedTexture2D::5736791745236315745::1746627114::1746627114::1::::<><><>0<>0<>852585c0067018c632be18ff07ac0583<>res://.godot/imported/Heart&ManaUi.png-401d8a9f0b4fe9b6141c04cae766bc7f.ctex::
+menu-frame-9patch.png::CompressedTexture2D/CompressedTexture2D::9196626143958073495::1746627114::1746627114::1::::<><><>0<>0<>00e26c12116fa951babebe80bb717887<>res://.godot/imported/menu-frame-9patch.png-01643222e7a2dc0ed3caa4b13e1538ca.ctex::
+::res://assets/music/::1746627114
+04-all-of-us-eircskiff.mp3::AudioStreamMP3/AudioStreamMP3::3697064781373800999::1746627114::1746627114::1::::<><><>0<>0<>ec97fbb85fefc18638da43cbc5f0a841<>res://.godot/imported/04-all-of-us-eircskiff.mp3-4cb021a59ea4adc5e9cb22f96856925a.mp3str::
+::res://assets/sfx/::1746627115
+enemy-defeated.wav::AudioStreamWAV/AudioStreamWAV::1073040575562937254::1746627114::1746627114::1::::<><><>0<>0<>18011f20f64d3d668fd988a71ad6116a<>res://.godot/imported/enemy-defeated.wav-10fc1ee1c82aee9832c6f29d76791d28.sample::
+enemyhit.wav::AudioStreamWAV/AudioStreamWAV::1789563657169241967::1746627114::1746627114::1::::<><><>0<>0<>c0bf4685b26981d558230582430df7a4<>res://.godot/imported/enemyhit.wav-10a13e63dbe4ac6799c78f8456ce9472.sample::
+gameover.wav::AudioStreamWAV/AudioStreamWAV::714354983673446324::1746627114::1746627114::1::::<><><>0<>0<>9257b3891dc3a61f3e20bea7315ad83c<>res://.godot/imported/gameover.wav-8f89145833902a50c57cfa08bbea3db4.sample::
+interact.wav::AudioStreamWAV/AudioStreamWAV::1380869184975128101::1746627114::1746627114::1::::<><><>0<>0<>83aa1699e1846c2dd3f3b113888b9b51<>res://.godot/imported/interact.wav-4cba907b04f5684128d2df7c05f44c0d.sample::
+player-hit.wav::AudioStreamWAV/AudioStreamWAV::557222568384326119::1746627114::1746627114::1::::<><><>0<>0<>a2d7a791815f26dbf9f41c2cb71d4731<>res://.godot/imported/player-hit.wav-e3ec0a7f65259ac3407a5f11e210132a.sample::
+sword.wav::AudioStreamWAV/AudioStreamWAV::448808256961286533::1746627114::1746627114::1::::<><><>0<>0<>91cecf25b4481c6dbcbaf118943b3df9<>res://.godot/imported/sword.wav-a735db9744bc80484270e5d908747011.sample::
+tada.wav::AudioStreamWAV/AudioStreamWAV::7636503060607986482::1746627115::1746627115::1::::<><><>0<>0<>39275c41c2f5226ac522f74424f839fa<>res://.godot/imported/tada.wav-12ced9b758827141a52e0026fecf4228.sample::
+::res://assets/sprites/::1746627115
+Asset License.txt::TextFile/TextFile::-1::1746627115::0::1::::<><><>0<>0<><>::
+Hero 01 32.png::CompressedTexture2D/CompressedTexture2D::5405452917317773287::1746627115::1746627115::1::::<><><>0<>0<>b013cedaeb189aef2193ff3c037c8f04<>res://.godot/imported/Hero 01 32.png-7957e47cece73c61bbcea813aad84a43.ctex::
+hero.png::CompressedTexture2D/CompressedTexture2D::1877387598806854748::1746627115::1746627115::1::::<><><>0<>0<>4556609d6e4bc93e66d60ec3c898e248<>res://.godot/imported/hero.png-511930f036362ab951a54cccd15fda61.ctex::
+Minecart 01 32.png::CompressedTexture2D/CompressedTexture2D::7967001501527610649::1746627115::1746627115::1::::<><><>0<>0<>f0817eb120e1f8ed2a3d4ccbb9b19aeb<>res://.godot/imported/Minecart 01 32.png-f489160c64b763347a3f3f68a2c4c933.ctex::
+Slime 01 32.png::CompressedTexture2D/CompressedTexture2D::5071923123163117472::1746627115::1746627115::1::::<><><>0<>0<>320d3e53e680087644f5c9dfbe7dab7e<>res://.godot/imported/Slime 01 32.png-1a48931ce7b77700ac4ff8e3e9c2936c.ctex::
+Sword 01 32.png::CompressedTexture2D/CompressedTexture2D::5225722392319394476::1746627115::1746627115::1::::<><><>0<>0<>232e1e3de6cd0ecb66e951f7a147bc4c<>res://.godot/imported/Sword 01 32.png-88b8dde7fd0f163a4747a24d1be9e5d1.ctex::
+::res://assets/tilesets/::1746627115
+Asset License.txt::TextFile/TextFile::-1::1746627115::0::1::::<><><>0<>0<><>::
+Solaria Demo Update 01 32.png::CompressedTexture2D/CompressedTexture2D::4696286070303224385::1746627115::1746627115::1::::<><><>0<>0<>b90fe73314efa59b7baef7ca23c22d7d<>res://.godot/imported/Solaria Demo Update 01 32.png-e429c6eed0b06e9c3fe383fd704ce852.ctex::
