@@ -1,17 +1,13 @@
 extends HBoxContainer
 
-
 const MAX_HP = 3
-var hp= 3
+var hp := MAX_HP
 
+func set_hp(new_hp: int) -> void:
+	hp = clamp(new_hp, 0, MAX_HP)
+	update_hearts()
 
-
-#func _ready() -> void:
-	#set_hp(3)
-
-
-func set_hp(new_hp):
-	hp = new_hp	
+func update_hearts() -> void:
 	for i in range(MAX_HP):
-		var heart = get_node ("Heart" + str(i + 1))
-		heart.visible = hp > i 
+		var heart = get_node("Heart" + str(i + 1))
+		heart.visible = hp > i

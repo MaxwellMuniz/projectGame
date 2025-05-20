@@ -1,9 +1,11 @@
-[gd_scene load_steps=64 format=3 uid="uid://cfvs2l0ywluj3"]
+[gd_scene load_steps=65 format=3 uid="uid://uni20gwekni1"]
 
-[ext_resource type="Script" path="res://player.gd" id="1_i3pqv"]
 [ext_resource type="Texture2D" uid="uid://cjapaw5jxhpc6" path="res://assets/sprites/Hero 01 32.png" id="1_onrkg"]
 [ext_resource type="Texture2D" uid="uid://cgpm5cjcrf2tc" path="res://assets/sprites/Sword 01 32.png" id="2_i3pqv"]
+[ext_resource type="PackedScene" uid="uid://f5a6tfb04v2p" path="res://chest.tscn" id="4_e4bkw"]
 [ext_resource type="AudioStream" uid="uid://gnn2ohsw4h6d" path="res://assets/sfx/sword.wav" id="4_hqtel"]
+
+[sub_resource type="GDScript" id="GDScript_jm6w4"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_345w4"]
 atlas = ExtResource("1_onrkg")
@@ -678,20 +680,19 @@ _data = {
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i3pqv"]
-size = Vector2(40, 40)
+size = Vector2(30.5, 31)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hqtel"]
 size = Vector2(22, 22)
 
 [node name="Player" type="CharacterBody2D"]
 motion_mode = 1
-script = ExtResource("1_i3pqv")
+script = SubResource("GDScript_jm6w4")
 metadata/_edit_lock_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_3ulw2")
-animation = &"walk_down"
-frame_progress = 0.084053
+animation = &"idle_down"
 metadata/_edit_lock_ = true
 
 [node name="MovementCollisionShape2D" type="CollisionShape2D" parent="."]
@@ -716,6 +717,7 @@ autoplay = "RESET"
 monitoring = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HurtBox"]
+position = Vector2(0.75, 1.5)
 shape = SubResource("RectangleShape2D_i3pqv")
 
 [node name="HitBox" type="Area2D" parent="."]
@@ -725,6 +727,10 @@ shape = SubResource("RectangleShape2D_hqtel")
 
 [node name="AttackSfx" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("4_hqtel")
+
+[node name="Chest" parent="." instance=ExtResource("4_e4bkw")]
+visible = false
+position = Vector2(224, 162)
 
 [connection signal="body_entered" from="HurtBox" to="." method="_on_hurt_box_body_entered"]
 [connection signal="body_entered" from="HitBox" to="." method="_on_hit_box_body_entered"]

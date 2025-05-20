@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://cj7s7psbj7adt"]
+
+[ext_resource type="Script" path="res://portal.gd" id="1_oku3t"]
+
+[sub_resource type="Gradient" id="Gradient_rrbiw"]
+offsets = PackedFloat32Array(0.333333, 0.568627, 0.852941, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0.942444, 0.00100959, 0.983349, 1, 0.402744, 0.0665276, 0.904877, 1, 0.580392, 0.376471, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_gin8g"]
+gradient = SubResource("Gradient_rrbiw")
+width = 24
+height = 24
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(1, 0.5)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0r2dm"]
+
+[node name="Portal" type="Area2D"]
+script = ExtResource("1_oku3t")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("GradientTexture2D_gin8g")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_0r2dm")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

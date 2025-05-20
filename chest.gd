@@ -8,8 +8,7 @@ class_name  Chest
 func is_closed():
 	return $ChestClosed.visible
 	
-	
-	
+		
 func open():
 	$ChestClosed.visible = false
 	$ChestOpened.visible = true
