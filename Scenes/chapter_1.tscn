@@ -1,20 +1,20 @@
 [gd_scene load_steps=25 format=3 uid="uid://c81k36dkq7c6l"]
 
-[ext_resource type="Script" path="res://chapter_1.gd" id="1_g7ayw"]
-[ext_resource type="PackedScene" uid="uid://uni20gwekni1" path="res://player.tscn" id="2_6xd1w"]
-[ext_resource type="Script" path="res://player1.gd" id="3_rhmet"]
-[ext_resource type="Script" path="res://player2.gd" id="4_btynr"]
+[ext_resource type="Script" path="res://Scripts/chapter_1.gd" id="1_g7ayw"]
+[ext_resource type="PackedScene" uid="uid://uni20gwekni1" path="res://Prefabs/player.tscn" id="2_6xd1w"]
+[ext_resource type="Script" path="res://Scripts/player1.gd" id="3_rhmet"]
+[ext_resource type="Script" path="res://Scripts/player2.gd" id="4_btynr"]
 [ext_resource type="Texture2D" uid="uid://b756e7epi7kfp" path="res://assets/tilesets/Solaria Demo Update 01 32.png" id="5_ujh8p"]
 [ext_resource type="Texture2D" uid="uid://cqldps5terrkd" path="res://icon.svg" id="6_gx100"]
-[ext_resource type="Script" path="res://ghost.gd" id="7_xyupl"]
+[ext_resource type="Script" path="res://Scripts/ghost.gd" id="7_xyupl"]
 [ext_resource type="Texture2D" uid="uid://cei43k0ha2tcy" path="res://assets/sprites/Slime 01 32.png" id="8_84b8h"]
 [ext_resource type="AudioStream" uid="uid://bsw5d8a01xdxv" path="res://assets/music/04-all-of-us-eircskiff.mp3" id="9_0h1yi"]
 [ext_resource type="AudioStream" uid="uid://kgbk7qiha5vc" path="res://assets/sfx/gameover.wav" id="10_ug1wt"]
-[ext_resource type="Script" path="res://hp.gd" id="11_poq8r"]
+[ext_resource type="Script" path="res://Scripts/hp.gd" id="11_poq8r"]
 [ext_resource type="Texture2D" uid="uid://cny7ee5xxvckn" path="res://assets/Heart&ManaUi.png" id="12_bwtpj"]
-[ext_resource type="Script" path="res://game_manager.gd" id="13_eag1r"]
-[ext_resource type="PackedScene" uid="uid://f5a6tfb04v2p" path="res://chest.tscn" id="14_quqkn"]
-[ext_resource type="PackedScene" uid="uid://cj7s7psbj7adt" path="res://Portal.tscn" id="15_turt7"]
+[ext_resource type="Script" path="res://Scripts/game_manager.gd" id="13_eag1r"]
+[ext_resource type="PackedScene" uid="uid://f5a6tfb04v2p" path="res://Prefabs/chest.tscn" id="14_quqkn"]
+[ext_resource type="PackedScene" uid="uid://cj7s7psbj7adt" path="res://Prefabs/Portal.tscn" id="15_turt7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8o7lh"]
 texture = ExtResource("5_ujh8p")
@@ -436,7 +436,7 @@ animations = [{
 atlas = ExtResource("12_bwtpj")
 region = Rect2(21, 1, 10, 10)
 
-[node name="game" type="Node2D"]
+[node name="Chapter_1" type="Node2D"]
 y_sort_enabled = true
 script = ExtResource("1_g7ayw")
 metadata/_edit_lock_ = true

@@ -1,0 +1,6 @@
+res://player.tscn
+res://Prefabs/player.tscn
+res://Scenes/menu.tscn
+res://Scenes/chapter_2.tscn
+res://Scenes/chapter_1.tscn
+res://Scripts/menu.gd
